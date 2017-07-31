@@ -6,8 +6,8 @@ export default class Component extends React.Component {
 
 	render() {
 		return (
-			<div className='pv5 ph4 mw-7 fs5 lh-copy fw1 block centred'>
-				<h2 className='uppercase align-center'>Resume</h2>
+			<div className='pv3 tsm-pv4 ph4 mw-7 fs5 lh-copy fw1 block centred'>
+				<h2 className='uppercase normal align-center'>Resume</h2>
 
 				<div className='align-center pb3'>
 					<p>Skilled in lingerie design and product development, I am a commercially aware individual seeking to push the boundaries of intimates design, looking for my next 'perfect fit'.</p>

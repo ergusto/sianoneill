@@ -25,7 +25,7 @@ export default class Component extends React.Component {
 
 	render() {
 		return (
-			<div ref={this.wrapperRef} className='pv5 justify-centre'>
+			<div ref={this.wrapperRef} className='pv3 tsm-pv4 justify-centre'>
 				<div className='mh4 mw-7 align-center fs5 lh-copy fw1'>
 					<h2 className='uppercase normal'>About</h2>
 					<p>I am a specialist apparel designer with just under 3 years experience in a multitude of product areas, most notably lingerie design. Product specialisms include:</p>
