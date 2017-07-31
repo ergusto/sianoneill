@@ -24,7 +24,7 @@ export default createReducer(initialState, {
 			success: true,
 			error: null,
 			errors: {},
-			statusText: 'Email sent successfully'
+			statusText: 'Thanks! Contact made.'
 		});
 	},
 	[CONTACT_FAILURE]: (state, payload) => {

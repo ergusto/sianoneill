@@ -32,6 +32,9 @@ class Component extends React.Component {
 
 	render() {
 		const { handleSubmit } = this.props.form;
+		const { success } = this.props.api;
+
+		const successText = success ? <span className='mv3 inline-block fr pink bold'>Thanks! Contact made</span> : null;
 
 		return (
 			<div className='w-100 mw-6 pv5 ph3 centred fw1'>
@@ -39,7 +42,8 @@ class Component extends React.Component {
 					<Field name='name' label='Full name' type='text' className='name-input' component={renderField} />
 					<Field name='email' label='Email' type='email' component={renderField} />
 					<Field name='message' label='Message' type='textarea' className='disable-resize' component={renderTextarea} onChange={this.onChange} elementRef={this.messageRef} />
-					<button type='submit' className='btn btn--clear fs5 ph3 pv2 mt2 ba b-lighter-grey'>Submit</button>
+					<button type='submit' className='btn btn--clear block fs5 ph3 pv2 mt2 ba b-lighter-grey fl'>Submit</button>
+					{successText}
 				</form>
 			</div>
 		);
