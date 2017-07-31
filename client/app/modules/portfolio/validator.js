@@ -7,7 +7,7 @@ export default createValidator({
 		}
 
 		if (value !== 'leatherandlace') {
-			return 'This is pass phrase is incorrect';
+			return 'This phrase is incorrect';
 		}
 	}
 });
