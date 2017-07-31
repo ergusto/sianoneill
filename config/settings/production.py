@@ -22,3 +22,6 @@ WEBPACK_LOADER = {
         'STATS_FILE': os.path.join(PROJECT_DIR, 'client/webpack/stats.production.json'),
     }
 }
+
+EMAIL_BACKEND = 'sgbackend.SendGridBackend'
+SENDGRID_API_KEY = os.environ.get('SENDGRID_API_KEY')

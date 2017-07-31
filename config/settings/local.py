@@ -30,3 +30,5 @@ WEBPACK_LOADER = {
             'STATS_FILE': os.path.join(PROJECT_DIR, 'client/webpack/stats.local.json'),
         }
 }
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

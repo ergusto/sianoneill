@@ -1,5 +1,5 @@
 import React from 'react';
-import Contact from './component.jsx';
+import Contact from './container.jsx';
 
 export default class Route extends React.Component {
 

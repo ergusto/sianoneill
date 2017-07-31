@@ -1,0 +1,6 @@
+Hi Sian!
+----
+You have recieved an email from "{{ name }}". You can reach them at "{{ email }}". They left the following message:
+----
+{{ message }}
+----

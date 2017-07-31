@@ -9,7 +9,8 @@ import './style.scss';
 class Component extends React.Component {
 
 	submit = data => {
-		console.log(data);
+		const { sendEmail } = this.props.actions;
+		sendEmail(data);
 	};
 
 	onChange = event => {
