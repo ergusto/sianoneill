@@ -1,0 +1,39 @@
+@import '~imports';
+
+.field {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	line-height: 1.42857143;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	padding: $s2;
+	cursor: text;
+	border: none;
+	font-family: Lucida Grande, sans-sefif;
+	color: color(dark-grey);
+	border-radius: 2px;
+
+	&:focus {
+		background: white;
+		outline: none;
+	}
+
+	&[readonly] {
+		cursor: not-allowed;
+	}
+
+	&:-webkit-autofill {
+		background-color: white;
+		color: color(dark-grey);
+		-webkit-box-shadow: 0 0 0 100px #fff inset;
+		-moz-box-shadow: 0 0 0 100px #fff inset;
+		box-shadow: 0 0 0 100px #fff inset;
+		-webkit-text-fill-color: #777;
+
+		&:focus {
+			-webkit-text-fill-color: #777;
+		}
+	}
+}

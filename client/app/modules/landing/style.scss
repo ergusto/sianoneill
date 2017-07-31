@@ -1,0 +1,13 @@
+@import '~imports';
+
+.landing-wrapper {
+	background-image: url('/static/images/abigail-horse.png');
+	background-size: cover;
+	background-position: center;
+}
+
+@include tabletLarge {
+	.landing-wrapper {
+		background-image: url('/static/images/abigail.png');
+	}
+}

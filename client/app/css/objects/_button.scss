@@ -1,0 +1,81 @@
+@import '../imports';
+
+.btn {
+	background: none;
+	padding: 8px 10px;
+	border: 1px solid transparent;
+	text-decoration: none;
+	text-align: center;
+	transition: background-color .3s linear;
+	border-radius: 4px;
+	font-family: inherit;
+	font-size: 0.9rem;
+	color: inherit;
+	display: inline-block;
+}
+
+.no-touch .btn:hover {
+	cursor: pointer;
+}
+
+/* STATE */
+
+.btn--small {
+	padding: $s1 $s2;
+	font-size: 80%;
+}
+
+.btn--block {
+	display: block;
+	width: 100%;
+}
+
+/* THEMES */
+
+/* BLUE */
+
+.btn--blue {
+	background: #203566; 
+	color: white;
+	border: 1px solid #3E5F9B;
+	border-radius: 5px;
+
+	&:active {
+		background: #2A4068;
+		color: white;
+	}	
+}
+
+.no-touch .btn--blue:hover {
+	background: #01023C;
+	color: white;
+}
+
+/* PURPLE */
+
+.btn--purple {
+	background: #203566; 
+	color: white;
+	border: 1px solid transparent;
+	border-radius: 5px;
+
+	&:active {
+		background: #77579d;
+	}
+}
+
+.no-touch .btn--purple:hover {
+	background: #8668a8;
+	color: white;
+}
+
+/* INVISIBLE */
+
+.btn--clear {
+	background: transparent;
+	border-color: transparent;
+}
+
+.no-touch .btn--clear:hover {
+	background: rgba(255, 255, 255, 0.1);
+}

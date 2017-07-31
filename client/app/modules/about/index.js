@@ -1,0 +1,1 @@
+export { default as AboutRoute } from './route.jsx';

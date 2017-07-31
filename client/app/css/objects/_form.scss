@@ -1,0 +1,83 @@
+@import '../imports';
+
+fieldset {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.form-error {
+	padding-left: 12px;
+	margin-bottom: 10px;
+}
+
+.purple-form {
+
+	.field-error {
+		color: white;
+		font-size: 80%;
+		margin-top: 0px;
+		margin-left: 10px;
+	}
+
+	.field {
+		background: color(dark-blue);
+		border: 0px;
+		margin: 10px 0;
+		padding: 10px;
+		color: white;
+		font-family: 'Assistant';
+
+		&::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+			color: rgba(255, 255, 255, 0.8);
+		}
+		&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+			color: rgba(255, 255, 255, 0.8);
+		}
+		&::-moz-placeholder { /* Mozilla Firefox 19+ */
+			color: rgba(255, 255, 255, 0.8);
+		}
+		&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+			color: rgba(255, 255, 255, 0.8);
+		}
+		&::-ms-input-placeholder { /* Microsoft Edge */
+			color: rgba(255, 255, 255, 0.8);
+		}
+
+		&:focus {
+			background: #203566;
+		}
+	}
+
+	.btn {
+		@extend .btn--clear;
+	}
+
+}
+
+.white-form {
+	fieldset {
+		padding: .5rem 0 1.7rem;
+		position: relative;
+
+		&:first-of-type {
+			padding-top: 0;
+		}
+	}
+
+	.form-error {
+		float: none;
+		margin-bottom: 0px;
+		margin-top: 14px;
+		display: block;
+		text-align: center;
+		padding-left: 0;
+	}
+
+	.field-error {
+		position: absolute;
+		bottom: 3px;
+		left: 10px;
+		font-size: .8rem;
+	}
+}

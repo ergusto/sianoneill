@@ -1,0 +1,1 @@
+export { default as ServicesRoute } from './route.jsx';

@@ -1,0 +1,1 @@
+export { default as PortfolioRoute } from './route.jsx';

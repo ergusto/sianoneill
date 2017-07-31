@@ -1,0 +1,16 @@
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	list-style-type: none;
+}
+
+.bulleted {
+	list-style-type: disc;
+}
+
+.horizontal-list {
+	li {
+		display: inline-block;
+	}
+}

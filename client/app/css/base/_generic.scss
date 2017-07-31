@@ -1,0 +1,36 @@
+@import '../imports';
+
+html {
+	font-size: 16px;
+	color: black;
+	overflow-y: scroll;
+
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+html, body {
+	-webkit-overflow-scrolling: auto; 
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+}
+
+menu {
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	border: none;
+}

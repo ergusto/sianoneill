@@ -1,0 +1,47 @@
+@import '~imports';
+
+.navigation {
+	display: none;
+}
+
+.site-title {
+	font-size: 3rem;
+}
+
+.mobile-navigation__toggle {
+	position: absolute;
+	left: 1rem;
+	top: 1.3rem;
+	color: black;
+}
+
+.mobile-navigation {
+	padding-bottom: .25rem;
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+
+.mobile-navigation li {
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+}
+
+@include tabletLarge {
+	.navigation {
+		display: block;
+		margin-bottom: $s3;
+	}
+
+	.site-title {
+		font-size: 6rem;
+		margin-bottom: $s2;
+	}
+
+	.mobile-navigation {
+		display: none;	
+	}
+
+	.mobile-navigation__toggle {
+		display: none;
+	}
+}

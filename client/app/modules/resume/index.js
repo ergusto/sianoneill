@@ -1,0 +1,1 @@
+export { default as ResumeRoute } from './route.jsx';

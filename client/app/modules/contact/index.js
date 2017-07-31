@@ -1,0 +1,1 @@
+export { default as ContactRoute } from './route.jsx';

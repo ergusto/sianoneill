@@ -1,0 +1,23 @@
+@import '../imports';
+
+@each $key, $value in $colors {
+	.bg-#{$key} {
+		background-color: $value;
+	}
+}
+
+.bg-blue-gradient {
+	background-color: #00c6ff;  /* fallback for old browsers */
+	background-image: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+	background-image: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: 120%;
+	background-position: center;
+}
+
+.bg-green-gradient {
+	background: #417E13;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #64AD5C, #417E13);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #64AD5C, #417E13); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: 120%;
+	background-position: center;
+}
