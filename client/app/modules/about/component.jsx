@@ -30,7 +30,7 @@ export default class Component extends React.Component {
 					<h2 className='uppercase normal'>About</h2>
 					<p>I am a specialist apparel designer with just under 3 years experience in a multitude of product areas, most notably lingerie design. Product specialisms include:</p>
 
-					<ul className=''>
+					<ul className='lh-branding'>
 						<li>Core & Fashion Lingerie</li>
 						<li>Erotic Lingerie</li>
 						<li>Nightwear</li>
