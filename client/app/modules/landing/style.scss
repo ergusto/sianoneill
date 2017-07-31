@@ -9,5 +9,12 @@
 @include tabletLarge {
 	.landing-wrapper {
 		background-image: url('/static/images/abigail.png');
+		background-position: right;
+	}
+}
+
+@include screenMedium {
+	.landing-wrapper {
+		background-position: center;
 	}
 }
