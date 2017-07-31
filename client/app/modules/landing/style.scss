@@ -1,14 +1,14 @@
 @import '~imports';
 
 .landing-wrapper {
-	background-image: url('/static/images/abigail-horse.png');
+	background-image: url('https://s3.eu-west-2.amazonaws.com/sianoneill/abigail-horse.png');
 	background-size: cover;
 	background-position: center;
 }
 
 @include tabletLarge {
 	.landing-wrapper {
-		background-image: url('/static/images/abigail.png');
+		background-image: url('https://s3.eu-west-2.amazonaws.com/sianoneill/abigail.png');
 		background-position: right;
 	}
 }

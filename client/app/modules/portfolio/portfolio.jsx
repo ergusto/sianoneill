@@ -48,7 +48,7 @@ export default class Component extends React.Component {
 		return images.map((image, index) => {
 			return (
 				<li className='relative' key={index}>
-					<img className='portfolio-image' src={'/static/images/' + image} />
+					<img className='portfolio-image' src={'https://s3.eu-west-2.amazonaws.com/sianoneill/' + image} />
 					<div className='portfolio-image-mask' />
 				</li>
 			);
